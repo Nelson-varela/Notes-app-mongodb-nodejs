@@ -1,0 +1,32 @@
+<div class="col-md-4 mx-auto">
+    <img src="/img/logo.png"  class="rounded-circle mx-auto d-block m-2 logo">
+    <h1 class="font-weight-bold text-center">Account Login</h1>
+    <form action="/users/signin" method="POST" class="mb-5">
+        <div class="form-group">
+            <label for="exampleInputEmail1" class="form-label font-weight-bold">Email</label>
+            <input type="email" class="form-control bg-dark text-light border-0 rounded" placeholder="Email"
+                name="email" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1" class="form-label font-weight-bold">Password</label>
+            <input type="password" class="form-control bg-dark border-0 mb-2 rounded" placeholder="Password"
+                name="password">
+        </div>
+        <button type="submit" class="btn btn-primary btn-sm rounded form-control mb-2">Log in</button>
+    </form>
+    <p class="font-weight-bold text-center">O inicia sección con:</p>
+    <div class="d-flex justify-content-around">
+        <button type="submit" class="btn btn-outline-danger flex-grow-1 mr-2 rounded"><i class="fab fa-google lead mr-2"></i>
+            Google</button>
+        <button type="submit" class="btn btn-outline-primary flex-grow-1 ml-2 rounded"><i class="fab fa-facebook-f lead mr-2"></i>
+            Facebook</button>
+    </div>
+</div>
+<div class="text-center px-lg-5 pt-lg-2 pb-lg-4 p-4 w-100 mt-auto">
+    <p class="d-inline-block mb-0">¿Todavia no tienes una cuenta?</p> <a href="/users/signup"
+        class="font-weight-bold text-dark text-decoration-none">¡Crea una ahora!</a>
+</div>
+</div>
+
+</div>
+</section>

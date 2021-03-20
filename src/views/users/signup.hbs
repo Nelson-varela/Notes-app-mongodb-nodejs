@@ -1,0 +1,38 @@
+<div class="col-md-4 mx-auto">
+    <h1 class="font-weight-bold text-center">Account Register</h1>
+    <form action="/users/signup" method="POST" class="mb-5">
+        <div class="mb-2">
+            <label for="exampleInputEmail1" class="form-label font-weight-bold">Name</label>
+            <input type="text" class="form-control bg-secondary text-light border-0 rounded mb-2 shadow" placeholder="Name"
+                name="name" value="{{name}}">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label font-weight-bold">Email</label>
+            <input type="email" class="form-control bg-dark text-light border-0 rounded mb-2 shadow" placeholder="Email"
+                name="email" value="{{email}}">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label font-weight-bold">Password</label>
+            <input type="password" class="form-control bg-dark border-0 mb-2 rounded shadow" placeholder="Password"
+                name="password">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label font-weight-bold">Confirm Password</label>
+            <input type="password" class="form-control bg-dark border-0 rounded mb-3 shadow" placeholder="Confirm Password"
+                name="password_confirm">
+        </div>
+        <button type="submit" class="btn btn-primary rounded btn-sm form-control mb-3">Sign Up</button>
+    </form>
+
+    <p class="font-weight-bold text-center">Or Register Using:</p>
+    <div class="d-flex justify-content-around">
+        <button type="submit" class="btn btn-outline-danger flex-grow-1 mr-2 rounded"><i class="fab fa-google lead mr-2"></i>
+            Google</button>
+        <button type="submit" class="btn btn-outline-primary flex-grow-1 ml-2 rounded"><i class="fab fa-facebook lead mr-2"></i>
+            Facebook</button>
+    </div>
+</div>
+
+</div>
+
+</div>
+</section>
